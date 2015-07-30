@@ -1,0 +1,10 @@
+G:\1.job\DMS\Framework.Core.Model\bin\Release\Framework.Core.Model.dll
+G:\1.job\DMS\Framework.Core.Model\bin\Release\Framework.Core.Model.pdb
+G:\1.job\DMS\Framework.Core.Model\obj\Release\Framework.Core.Model.dll
+G:\1.job\DMS\Framework.Core.Model\obj\Release\Framework.Core.Model.pdb
+G:\1.job\DMS\Framework.Core.Model\obj\Release\Framework.Core.Model.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\Framework.Core.Model\bin\Release\Framework.Core.Model.dll
+G:\1.job\TNS\Framework.Core.Model\bin\Release\Framework.Core.Model.pdb
+G:\1.job\TNS\Framework.Core.Model\obj\Release\Framework.Core.Model.dll
+G:\1.job\TNS\Framework.Core.Model\obj\Release\Framework.Core.Model.pdb
+G:\1.job\TNS\Framework.Core.Model\obj\Release\Framework.Core.Model.csprojResolveAssemblyReference.cache

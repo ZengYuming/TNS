@@ -1,0 +1,16 @@
+G:\1.job\TNS\Mockata\bin\Release\Mockata.dll
+G:\1.job\TNS\Mockata\bin\Release\Mockata.pdb
+G:\1.job\TNS\Mockata\bin\Release\FrameWork.Core.dll
+G:\1.job\TNS\Mockata\bin\Release\TNS.Db.dll
+G:\1.job\TNS\Mockata\bin\Release\TNS.Metadata.dll
+G:\1.job\TNS\Mockata\bin\Release\Newtonsoft.Json.dll
+G:\1.job\TNS\Mockata\bin\Release\FrameWork.Core.pdb
+G:\1.job\TNS\Mockata\bin\Release\TNS.Db.pdb
+G:\1.job\TNS\Mockata\bin\Release\TNS.Metadata.pdb
+G:\1.job\TNS\Mockata\obj\Release\Mockata.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\Mockata\obj\Release\Mockata.dll
+G:\1.job\TNS\Mockata\obj\Release\Mockata.pdb
+G:\1.job\TNS\Mockata\bin\Release\TNF.Util.dll
+G:\1.job\TNS\Mockata\bin\Release\TNS.Util.dll
+G:\1.job\TNS\Mockata\bin\Release\TNF.Util.pdb
+G:\1.job\TNS\Mockata\bin\Release\TNS.Util.pdb

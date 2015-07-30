@@ -1,0 +1,5 @@
+G:\1.job\TNS\TNS.Db.Util\bin\Debug\TNS.Db.Util.dll
+G:\1.job\TNS\TNS.Db.Util\bin\Debug\TNS.Db.Util.pdb
+G:\1.job\TNS\TNS.Db.Util\obj\Debug\TNS.Db.Util.dll
+G:\1.job\TNS\TNS.Db.Util\obj\Debug\TNS.Db.Util.pdb
+G:\1.job\TNS\TNS.Db.Util\obj\Debug\TNS.Db.Util.csprojResolveAssemblyReference.cache

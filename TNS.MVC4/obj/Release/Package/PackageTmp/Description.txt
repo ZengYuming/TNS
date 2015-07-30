@@ -1,0 +1,12 @@
+﻿还需要研究的：
+Framework.Core.Extensions.JsonHelper.JsonDeserialize(...)?
+PagingController?
+AuthorizedController? [Authorize] 标签的作用？
+BaseController?
+***********Feature******************
+Hotel ID的默认值，填写当前查询的hotel的ID
+Comment的默认值用js控制
+Edit的时候，日期不可改，因为service那边是用日期（checkout checkin）做判断，如果这个两个日期一样则是update不是new
+语言做成可选
+Tags也做成弹窗可选
+搜索条件补充全

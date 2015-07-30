@@ -1,0 +1,10 @@
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\TNS.Db.TestDataService.dll
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\TNS.Db.TestDataService.pdb
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\FrameWork.Core.dll
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\TNS.Db.dll
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\Newtonsoft.Json.dll
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\FrameWork.Core.pdb
+G:\1.job\TNS\TNS.Db.TestDataService\bin\Debug\TNS.Db.pdb
+G:\1.job\TNS\TNS.Db.TestDataService\obj\Debug\TNS.Db.TestDataService.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Db.TestDataService\obj\Debug\TNS.Db.TestDataService.dll
+G:\1.job\TNS\TNS.Db.TestDataService\obj\Debug\TNS.Db.TestDataService.pdb

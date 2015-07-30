@@ -1,0 +1,10 @@
+G:\1.job\TNS\TNS.Upgrade\obj\Release\TNS.Upgrade.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Upgrade\bin\Release\TNS.Upgrade.exe
+G:\1.job\TNS\TNS.Upgrade\bin\Release\TNS.Upgrade.pdb
+G:\1.job\TNS\TNS.Upgrade\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\1.job\TNS\TNS.Upgrade\bin\Release\TNS.Win.Util.dll
+G:\1.job\TNS\TNS.Upgrade\bin\Release\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Upgrade\bin\Release\TNS.Win.Util.pdb
+G:\1.job\TNS\TNS.Upgrade\bin\Release\TNS.Metadata.pdb
+G:\1.job\TNS\TNS.Upgrade\obj\Release\TNS.Upgrade.exe
+G:\1.job\TNS\TNS.Upgrade\obj\Release\TNS.Upgrade.pdb

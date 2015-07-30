@@ -1,0 +1,5 @@
+G:\1.job\DMS\DMS.Metadata\bin\Release\DMS.Metadata.dll
+G:\1.job\DMS\DMS.Metadata\bin\Release\DMS.Metadata.pdb
+G:\1.job\DMS\DMS.Metadata\obj\Release\DMS.Metadata.dll
+G:\1.job\DMS\DMS.Metadata\obj\Release\DMS.Metadata.pdb
+G:\1.job\DMS\DMS.Metadata\obj\Release\DMS.Metadata.csprojResolveAssemblyReference.cache

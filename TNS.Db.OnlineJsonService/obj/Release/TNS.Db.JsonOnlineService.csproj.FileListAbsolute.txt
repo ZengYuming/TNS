@@ -1,0 +1,16 @@
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.Db.OnlineJsonService.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.Db.OnlineJsonService.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\FrameWork.Core.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.DataService.Interface.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.Db.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\Newtonsoft.Json.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\FrameWork.Core.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.DataService.Interface.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.Db.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\obj\Release\TNS.Db.JsonOnlineService.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Db.OnlineJsonService\obj\Release\TNS.Db.OnlineJsonService.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\obj\Release\TNS.Db.OnlineJsonService.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNF.Util.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNF.Util.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Release\TNS.Metadata.pdb

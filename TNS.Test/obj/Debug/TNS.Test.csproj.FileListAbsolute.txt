@@ -1,0 +1,13 @@
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Test.exe
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Test.pdb
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Db.dll
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Db.TestDataService.dll
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Util.dll
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Db.TestDataService.pdb
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Db.pdb
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Util.pdb
+G:\1.job\TNS\TNS.Test\obj\Debug\TNS.Test.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Test\obj\Debug\TNS.Test.exe
+G:\1.job\TNS\TNS.Test\obj\Debug\TNS.Test.pdb
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Test\bin\Debug\TNS.Metadata.pdb

@@ -1,0 +1,64 @@
+﻿body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,table,th,td,img,cite,strong,em{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+header, footer, nav, section {display: block;}
+
+.text {
+line-height:30px;
+height: 17px;
+border: 1px solid #ccc;
+}
+
+.right {
+    text-align: right;
+}
+
+#tableEdit td {
+    padding: 0px 2px 5px 5px;
+}
+
+
+.comboSize {
+    width: 204px; height: 20px;
+}
+
+.comboSize input {
+    width: 200px
+}
+
+.table-bordered th, .table-bordered td {
+    border-left: 1px solid #ddd;
+}
+.table th, .table td {
+    border-top: 1px solid #ddd;
+    line-height: 20px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+.table-bordered {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: separate;
+    border-color: #ddd #ddd #ddd -moz-use-text-color;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+}
+.table {
+    margin-bottom: 20px;
+    width: 100%;
+}

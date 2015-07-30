@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../../Scripts/jquery-1.8.2.min.js"></script>
+    <script src="../../Scripts/jquery-ui-1.8.24.min.js"></script>
+    <link href="video-js.css" rel="stylesheet" />
+    <script src="video.js"></script>
+</head>
+<body>
+    <div id="viewFilm">
+    </div>
+    <input type="button" id="btnPlay" onclick="viewFilm()" value="播放" />
+    <input type="button" id="btnHide" onclick="pauseVideo()" value="隐藏" />
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        var myPlayer = VideoJS('home_video');
+        myPlayer.hide();
+    });
+    function viewFilm() {
+   
+    
+    var viewFilmBox = $('#viewFilm');
+    //todo: We replace the source with custom url.
+    var videoHtml = ' <video id="video"  preload="none" poster="" width="885" height="494" class="video-js vjs-default-skin" controls="">' +
+       ' <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />' +
+        '<source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm" />' +
+    '</video>';
+    viewFilmBox.append(videoHtml);
+    var dlgViewFilm = viewFilmBox.dialog({
+        onClose: function () {
+            var myPlayer = VideoJS('video');
+            myPlayer.hide();
+            myPlayer.pause();
+        }
+    });
+    dlgViewFilm.show();
+
+    var myPlayer = VideoJS('video');
+    myPlayer.width(885);
+    myPlayer.height(494);
+    myPlayer.load();
+    myPlayer.show();
+    myPlayer.play();   
+}
+    function pauseVideo() {
+        var myPlayer = VideoJS('video');
+        myPlayer.hide();
+        myPlayer.pause();
+    }
+
+
+</script>

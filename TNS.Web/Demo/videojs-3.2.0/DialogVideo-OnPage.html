@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../../Scripts/jquery-1.8.2.min.js"></script>
+    <script src="../../Scripts/jquery-ui-1.8.24.min.js"></script>
+    <link href="video-js.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="viewFilm">
+        <video id="home_video" controls="" preload="none" poster="" class="video-js vjs-default-skin vjs-big-play-centered">
+            <!--   <source src="../../Media/oceans.mp4" type="video/mp4" />
+            <source src="../../Media/oceans.webm" type="video/webm" /> -->
+            <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+            <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+            <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+        </video>
+    </div>
+    <input type="button" id="btnPlay" onclick="playVideo()" value="播放" />
+    <input type="button" id="btnHide" onclick="pauseVideo()" value="隐藏" />
+</body>
+</html>
+<script src="video.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var myPlayer = VideoJS('home_video');
+        myPlayer.hide();
+    });
+    function playVideo() {
+        var dlgViewFilm = $('#viewFilm').dialog({
+            onClose: function () {
+                var myPlayer = VideoJS('home_video');
+                myPlayer.hide();
+                myPlayer.pause();
+            },
+            closed: true
+        });
+        dlgViewFilm.show();
+
+        var myPlayer = VideoJS('home_video');
+        myPlayer.width(500);
+        myPlayer.height(400);
+        myPlayer.show();
+        myPlayer.play();
+    }
+    function pauseVideo() {
+        var myPlayer = VideoJS('home_video');
+        myPlayer.hide();
+        myPlayer.pause();
+    }
+
+
+</script>

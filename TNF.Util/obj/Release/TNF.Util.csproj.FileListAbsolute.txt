@@ -1,0 +1,5 @@
+G:\1.job\TNS\TNF.Util\bin\Release\TNF.Util.dll
+G:\1.job\TNS\TNF.Util\bin\Release\TNF.Util.pdb
+G:\1.job\TNS\TNF.Util\obj\Release\TNF.Util.dll
+G:\1.job\TNS\TNF.Util\obj\Release\TNF.Util.pdb
+G:\1.job\TNS\TNF.Util\obj\Release\TNF.Util.csprojResolveAssemblyReference.cache

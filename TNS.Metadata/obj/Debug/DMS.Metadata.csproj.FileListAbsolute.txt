@@ -1,0 +1,13 @@
+G:\Job\DMS\DMS\DMS.Metadata\bin\Debug\DMS.Metadata.dll
+G:\Job\DMS\DMS\DMS.Metadata\bin\Debug\DMS.Metadata.pdb
+G:\Job\DMS\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.dll
+G:\Job\DMS\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.pdb
+G:\Job\DMS\DMS.Metadata\bin\Debug\DMS.Metadata.dll
+G:\Job\DMS\DMS.Metadata\bin\Debug\DMS.Metadata.pdb
+G:\Job\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.dll
+G:\Job\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.pdb
+G:\Job\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.csprojResolveAssemblyReference.cache
+G:\1.job\DMS\DMS.Metadata\bin\Debug\DMS.Metadata.dll
+G:\1.job\DMS\DMS.Metadata\bin\Debug\DMS.Metadata.pdb
+G:\1.job\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.dll
+G:\1.job\DMS\DMS.Metadata\obj\Debug\DMS.Metadata.pdb

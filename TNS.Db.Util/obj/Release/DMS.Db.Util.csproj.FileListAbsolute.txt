@@ -1,0 +1,5 @@
+G:\1.job\DMS\DMS.Db.Util\bin\Release\DMS.Db.Util.dll
+G:\1.job\DMS\DMS.Db.Util\bin\Release\DMS.Db.Util.pdb
+G:\1.job\DMS\DMS.Db.Util\obj\Release\DMS.Db.Util.dll
+G:\1.job\DMS\DMS.Db.Util\obj\Release\DMS.Db.Util.pdb
+G:\1.job\DMS\DMS.Db.Util\obj\Release\DMS.Db.Util.csprojResolveAssemblyReference.cache

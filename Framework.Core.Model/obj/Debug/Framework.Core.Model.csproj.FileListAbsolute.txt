@@ -1,0 +1,10 @@
+G:\Job\DMS\Framework.Core.Model\bin\Debug\Framework.Core.Model.dll
+G:\Job\DMS\Framework.Core.Model\bin\Debug\Framework.Core.Model.pdb
+G:\Job\DMS\Framework.Core.Model\obj\Debug\Framework.Core.Model.dll
+G:\Job\DMS\Framework.Core.Model\obj\Debug\Framework.Core.Model.pdb
+G:\Job\DMS\Framework.Core.Model\obj\Debug\Framework.Core.Model.csprojResolveAssemblyReference.cache
+G:\1.job\DMS\Framework.Core.Model\bin\Debug\Framework.Core.Model.dll
+G:\1.job\DMS\Framework.Core.Model\bin\Debug\Framework.Core.Model.pdb
+G:\1.job\DMS\Framework.Core.Model\obj\Debug\Framework.Core.Model.dll
+G:\1.job\DMS\Framework.Core.Model\obj\Debug\Framework.Core.Model.pdb
+G:\1.job\DMS\Framework.Core.Model\obj\Debug\Framework.Core.Model.csprojResolveAssemblyReference.cache

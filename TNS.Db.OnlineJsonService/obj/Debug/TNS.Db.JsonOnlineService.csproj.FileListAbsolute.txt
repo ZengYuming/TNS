@@ -1,0 +1,16 @@
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.Db.OnlineJsonService.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.Db.OnlineJsonService.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\FrameWork.Core.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.DataService.Interface.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.Db.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\Newtonsoft.Json.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\FrameWork.Core.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.DataService.Interface.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.Db.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\obj\Debug\TNS.Db.JsonOnlineService.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Db.OnlineJsonService\obj\Debug\TNS.Db.OnlineJsonService.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\obj\Debug\TNS.Db.OnlineJsonService.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNF.Util.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNF.Util.pdb
+G:\1.job\TNS\TNS.Db.OnlineJsonService\bin\Debug\TNS.Metadata.pdb

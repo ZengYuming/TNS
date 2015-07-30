@@ -1,0 +1,9 @@
+G:\1.job\DMS\DMS.Db.TestDataService\bin\Debug\DMS.Db.TestDataService.dll
+G:\1.job\DMS\DMS.Db.TestDataService\bin\Debug\DMS.Db.TestDataService.pdb
+G:\1.job\DMS\DMS.Db.TestDataService\bin\Debug\DMS.Db.dll
+G:\1.job\DMS\DMS.Db.TestDataService\bin\Debug\Framework.Core.Model.dll
+G:\1.job\DMS\DMS.Db.TestDataService\bin\Debug\DMS.Db.pdb
+G:\1.job\DMS\DMS.Db.TestDataService\bin\Debug\Framework.Core.Model.pdb
+G:\1.job\DMS\DMS.Db.TestDataService\obj\Debug\DMS.Db.TestDataService.csprojResolveAssemblyReference.cache
+G:\1.job\DMS\DMS.Db.TestDataService\obj\Debug\DMS.Db.TestDataService.dll
+G:\1.job\DMS\DMS.Db.TestDataService\obj\Debug\DMS.Db.TestDataService.pdb

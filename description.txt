@@ -1,0 +1,12 @@
+1.Mysql db.
+2.Devexpress UI
+3.Autoupdate
+4.Roles includ (Administration,Accountant,Salesman)
+5.Db auto backup.
+
+[2014-12-21]
+进度：
+1.自动更新 --> 本地可以自动更新了，包括打包，和解压包
+2.Mysql --> 已经可以操作,页面上已经完成查询（不带条件的查询）和 编辑
+3.数据库备份已经完成
+4.sql注入，已经用参数化查询防御了

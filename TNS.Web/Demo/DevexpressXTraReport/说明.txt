@@ -1,0 +1,2 @@
+﻿rpt 是 水晶报表文件
+repx 是 DevExpress 的报表文件

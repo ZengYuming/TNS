@@ -1,0 +1,12 @@
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\TNS.DataService.Interface.dll
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\TNS.DataService.Interface.pdb
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\FrameWork.Core.dll
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\TNS.Db.dll
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\Newtonsoft.Json.dll
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\FrameWork.Core.pdb
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\TNS.Db.pdb
+G:\1.job\TNS\TNS.DataService.Interface\obj\Debug\TNS.DataService.Interface.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.DataService.Interface\obj\Debug\TNS.DataService.Interface.dll
+G:\1.job\TNS\TNS.DataService.Interface\obj\Debug\TNS.DataService.Interface.pdb
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\TNS.Metadata.dll
+G:\1.job\TNS\TNS.DataService.Interface\bin\Debug\TNS.Metadata.pdb

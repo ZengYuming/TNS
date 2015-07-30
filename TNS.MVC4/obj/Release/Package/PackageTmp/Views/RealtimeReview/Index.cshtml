@@ -1,0 +1,232 @@
+﻿@{
+    
+    Mockata.Models.RealtimeReview DefaultRealtimeReview = ViewData["DefaultRealtimeReview"] as Mockata.Models.RealtimeReview;
+}
+
+@Html.AntiForgeryToken()
+<link rel="stylesheet" type="text/css" href="~/jquery-easyui-1.3.2/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="~/jquery-easyui-1.3.2/themes/icon.css" />
+<style type="text/css">
+    .sad {
+        width: 24px;
+        height: 25px;
+        background-image: url(/images/rtr_sprites.png);
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .happy {
+        width: 24px;
+        height: 25px;
+        background-image: url(/images/rtr_sprites.png);
+        background-position: -25px -0px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .none {
+        width: 25px;
+        height: 25px;
+        background-image: url(/images/rtr_sprites.png);
+        background-position: -50px 0px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .happytags {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        border: 2px solid #477a00;
+        color: #477a00;
+        display: inline-block;
+        position: relative;
+        border-radius: 1.15384615em;
+        font-size: 0.7647058823529411em;
+        cursor: pointer;
+    }
+
+    .sadtags {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        border: 2px solid #b80000;
+        color: #b80000;
+        display: inline-block;
+        position: relative;
+        border-radius: 1.15384615em;
+        font-size: 0.7647058823529411em;
+        cursor: pointer;
+    }
+</style>
+<script type="text/javascript" src="~/jquery-easyui-1.3.2/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="~/jquery-easyui-1.3.2/jquery.easyui.min.js"></script>
+
+<script type="text/javascript" src="~/js/list.js"></script>
+<script type="text/javascript" src="~/js/common.js"></script>
+<script type="text/javascript" src="~/js/realtimereivew.js"></script>
+<script type="text/javascript">
+    function setDefaultValue() {
+        $("#FirstAnswer").combobox("setValue", "0");
+        $("#SecondAnswer").combobox("setValue", "0");
+        $("#ThirdAnswer").combobox("setValue", "0");
+        $('#TagsOfFirstAnswer').val('@DefaultRealtimeReview.TagsOfFirstAnswer');
+        $('#TagsOfSecondAnswer').val('@DefaultRealtimeReview.TagsOfSecondAnswer');
+        $('#TagsOfThirdAnswer').val('@DefaultRealtimeReview.TagsOfThirdAnswer');
+        $('#CustomTagsOfFirstAnswer').val('@DefaultRealtimeReview.CustomTagsOfFirstAnswer');
+        $('#CustomTagsOfSecondAnswer').val('@DefaultRealtimeReview.CustomTagsOfSecondAnswer');
+        $('#CustomTagsOfThirdAnswer').val('@DefaultRealtimeReview.CustomTagsOfThirdAnswer');
+        $('#HotelId').val('@DefaultRealtimeReview.HotelId');
+        $('#BookingId').val('@DefaultRealtimeReview.BookingId');
+        $('#Language').combobox("setValue", '@DefaultRealtimeReview.Language');
+        $('#Comment').val('@DefaultRealtimeReview.Comment');
+    }
+    function clearEditDialog() {
+        $("#FirstAnswer").combobox("setValue", "");
+        $("#SecondAnswer").combobox("setValue", "");
+        $("#ThirdAnswer").combobox("setValue", "");
+        $('#TagsOfFirstAnswer').val('');
+        $('#TagsOfSecondAnswer').val('');
+        $('#TagsOfThirdAnswer').val('');
+        $('#CustomTagsOfFirstAnswer').val('');
+        $('#CustomTagsOfSecondAnswer').val('');
+        $('#CustomTagsOfThirdAnswer').val('');
+        $('#HotelId').val('');
+        $('#BookingId').val('');
+        $('#Language').combobox("setValue", "");
+        $('#Comment').val('');
+    }
+
+    function initEditDialog(rowData) {
+        //edit
+        if (rowData != "") {
+            $('#HotelId').attr('readonly', true);
+            $('#BookingId').attr('readonly', true);
+        }//new
+        else {
+        }
+    }
+</script>
+
+<div id="content"></div>
+<div id="dlg_Edit" title="Add-Realtime Review" style="width: 750px; height: 380px;" buttons="#buttons">
+    <div title="Realtime Review">
+        <form method="post" id="Form1">
+            <table id="tableEdit" style="margin: 10px">
+                <tr>
+                    <td>
+                        <a href="javascript:void(0)" onclick="setDefaultValue()" class="easyui-linkbutton" iconcls="icon-ok">Default</a>
+                    </td>
+                    <td>
+                        <a href="javascript:void(0)" onclick="clearEditDialog()" class="easyui-linkbutton" iconcls="icon-ok">Clear</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Check In:</td>
+                    <td>
+                        <input id="CheckInDate" name="CheckInDate" class="easyui-datebox" readonly="true" style="width: 150px;" data-options="formatter:dateformatter,parser:dateparser" />
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Tags:</td>
+                    <td>
+                        <input id="CheckOutDate" name="CheckOutDate" class="easyui-datebox" readonly="true" style="width: 150px;" data-options="formatter:dateformatter,parser:dateparser" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">First Answer:</td>
+                    <td>
+                        <select id="FirstAnswer" name="FirstAnswer" class="easyui-combobox" style="width: 150px; height: 21px">
+                            @Html.Partial("_AnswerOptions")
+                        </select>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Tags:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="TagsOfFirstAnswer" name="TagsOfFirstAnswer" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Custom:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="CustomTagsOfFirstAnswer" name="CustomTagsOfFirstAnswer" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Second Answer:</td>
+                    <td>
+                        <select id="SecondAnswer" name="SecondAnswer" class="easyui-combobox" style="width: 150px;">
+                            @Html.Partial("_AnswerOptions")
+                        </select>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Tags:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="TagsOfSecondAnswer" name="TagsOfSecondAnswer" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Custom:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="CustomTagsOfSecondAnswer" name="CustomTagsOfSecondAnswer" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Third Answer:</td>
+                    <td>
+                        <select id="ThirdAnswer" name="ThirdAnswer" class="easyui-combobox" style="width: 150px;">
+                            @Html.Partial("_AnswerOptions")
+                        </select>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Tags:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="TagsOfThirdAnswer" name="TagsOfThirdAnswer" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Custom:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="CustomTagsOfThirdAnswer" name="CustomTagsOfThirdAnswer" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Language:</td>
+                    <td>
+                        <select id="Language" name="Language" class="easyui-combobox" style="width: 150px;">
+                            @Html.Partial("_LangugeOptions")
+                        </select>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Hotel ID:</td>
+                    <td>
+                        <span class="combo comboSize" style="width: 150px;">
+                            <input id="HotelId" name="HotelId" type="text" class="combo-text" style="width: 150px;" />
+                        </span>
+                    </td>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Booking Id:</td>
+                    <td><span class="combo comboSize" style="width: 150px;">
+                        <input id="BookingId" name="BookingId" type="text" class="combo-text" style="width: 150px;" />
+                    </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right" style="padding: 5px; font: 12px/1.5 tahoma">Comment:</td>
+                    <td colspan="5"><span class="combo comboSize" style="width: 600px;">
+                        <input id="Comment" name="Comment" type="text" class="combo-text" style="width: 600px;" />
+                    </span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<div id="buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-ok" id="btnSave">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-cancel" id="btnClose">关闭</a>
+</div>

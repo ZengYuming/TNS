@@ -1,0 +1,5 @@
+G:\1.job\TNS\TNS.Web.Util\bin\Release\TNS.Web.Util.dll
+G:\1.job\TNS\TNS.Web.Util\bin\Release\TNS.Web.Util.pdb
+G:\1.job\TNS\TNS.Web.Util\obj\Release\TNS.Web.Util.dll
+G:\1.job\TNS\TNS.Web.Util\obj\Release\TNS.Web.Util.pdb
+G:\1.job\TNS\TNS.Web.Util\obj\Release\TNS.Web.Util.csprojResolveAssemblyReference.cache

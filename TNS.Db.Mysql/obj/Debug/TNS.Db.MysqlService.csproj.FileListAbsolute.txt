@@ -1,0 +1,17 @@
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Db.Mysql.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Db.Mysql.pdb
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\FrameWork.Core.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\MySql.Data.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.DataService.Interface.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Db.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Db.Util.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\Newtonsoft.Json.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\FrameWork.Core.pdb
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.DataService.Interface.pdb
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Db.Util.pdb
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Db.pdb
+G:\1.job\TNS\TNS.Db.Mysql\obj\Debug\TNS.Db.MysqlService.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Db.Mysql\obj\Debug\TNS.Db.Mysql.dll
+G:\1.job\TNS\TNS.Db.Mysql\obj\Debug\TNS.Db.Mysql.pdb
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Db.Mysql\bin\Debug\TNS.Metadata.pdb

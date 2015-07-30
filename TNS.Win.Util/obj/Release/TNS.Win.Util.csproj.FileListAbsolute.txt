@@ -1,0 +1,14 @@
+G:\1.job\DMS\DMS.Win.Util\bin\Release\DMS.Win.Util.dll
+G:\1.job\DMS\DMS.Win.Util\bin\Release\DMS.Win.Util.pdb
+G:\1.job\DMS\DMS.Win.Util\bin\Release\DMS.Metadata.dll
+G:\1.job\DMS\DMS.Win.Util\bin\Release\DMS.Metadata.pdb
+G:\1.job\DMS\DMS.Win.Util\obj\Release\TNS.Win.Util.csprojResolveAssemblyReference.cache
+G:\1.job\DMS\DMS.Win.Util\obj\Release\DMS.Win.Util.dll
+G:\1.job\DMS\DMS.Win.Util\obj\Release\DMS.Win.Util.pdb
+G:\1.job\TNS\TNS.Win.Util\bin\Release\TNS.Win.Util.dll
+G:\1.job\TNS\TNS.Win.Util\bin\Release\TNS.Win.Util.pdb
+G:\1.job\TNS\TNS.Win.Util\bin\Release\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Win.Util\bin\Release\TNS.Metadata.pdb
+G:\1.job\TNS\TNS.Win.Util\obj\Release\TNS.Win.Util.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\TNS.Win.Util\obj\Release\TNS.Win.Util.dll
+G:\1.job\TNS\TNS.Win.Util\obj\Release\TNS.Win.Util.pdb

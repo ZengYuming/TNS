@@ -1,0 +1,8 @@
+﻿Log Time:2015-07-28 17:04:23
+Message Source : System
+Message : 未能解析此远程名称: 'test.reviewsvc.expedia.com'
+Stack Trace :    在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Framework.Core.Http.HttpHandler.SendPostHttpRequest(String url, String jsonData) 位置 g:\1.job\TNS\FrameWork.Core\Http\HttpHandler.cs:行号 63
+   在 Mockata.mockers.RealtimeReviewMocker.mockFirstAnswer() 位置 g:\1.job\TNS\Mockata\mockers\RealtimeReviewMocker.cs:行号 78
+   在 Mockata.mockers.RealtimeReviewMocker.Mockup() 位置 g:\1.job\TNS\Mockata\mockers\RealtimeReviewMocker.cs:行号 39

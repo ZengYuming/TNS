@@ -1,0 +1,5 @@
+G:\1.job\TNS\TNS.Metadata\bin\Release\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Metadata\bin\Release\TNS.Metadata.pdb
+G:\1.job\TNS\TNS.Metadata\obj\Release\TNS.Metadata.dll
+G:\1.job\TNS\TNS.Metadata\obj\Release\TNS.Metadata.pdb
+G:\1.job\TNS\TNS.Metadata\obj\Release\TNS.Metadata.csprojResolveAssemblyReference.cache

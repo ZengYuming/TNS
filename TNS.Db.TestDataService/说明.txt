@@ -1,0 +1,1 @@
+﻿本ClassLibray用于制作一些HardCode的数据，用DataSet之类的一些不用连接数据库的对象进行数据的承载。

@@ -1,0 +1,9 @@
+﻿Log Time:2015-07-24 22:09:51
+Message Source : mscorlib
+Message : 未找到请求的值“en_GB”。
+Stack Trace :    在 System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   在 System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 System.Enum.Parse(Type enumType, String value)
+   在 TNS.MVC4.Controllers.RealtimeReviewController.ConvertToRealtimeReview(RealtimeReview jsonModel) 位置 g:\1.job\TNS\TNS.MVC4\Controllers\RealtimeReviewController.cs:行号 82
+   在 TNS.MVC4.Controllers.RealtimeReviewController.ConvertToRealtimeReviewList(List`1 jsonModelList) 位置 g:\1.job\TNS\TNS.MVC4\Controllers\RealtimeReviewController.cs:行号 61

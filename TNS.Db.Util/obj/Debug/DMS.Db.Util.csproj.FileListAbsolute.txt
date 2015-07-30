@@ -1,0 +1,10 @@
+G:\Job\DMS\DMS.Db.Util\bin\Debug\DMS.Db.Util.dll
+G:\Job\DMS\DMS.Db.Util\bin\Debug\DMS.Db.Util.pdb
+G:\Job\DMS\DMS.Db.Util\obj\Debug\DMS.Db.Util.dll
+G:\Job\DMS\DMS.Db.Util\obj\Debug\DMS.Db.Util.pdb
+G:\Job\DMS\DMS.Db.Util\obj\Debug\DMS.Db.Util.csprojResolveAssemblyReference.cache
+G:\1.job\DMS\DMS.Db.Util\bin\Debug\DMS.Db.Util.dll
+G:\1.job\DMS\DMS.Db.Util\bin\Debug\DMS.Db.Util.pdb
+G:\1.job\DMS\DMS.Db.Util\obj\Debug\DMS.Db.Util.dll
+G:\1.job\DMS\DMS.Db.Util\obj\Debug\DMS.Db.Util.pdb
+G:\1.job\DMS\DMS.Db.Util\obj\Debug\DMS.Db.Util.csprojResolveAssemblyReference.cache

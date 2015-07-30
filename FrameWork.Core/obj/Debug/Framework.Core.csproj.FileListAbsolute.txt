@@ -1,0 +1,6 @@
+G:\1.job\TNS\FrameWork.Core\bin\Debug\FrameWork.Core.dll
+G:\1.job\TNS\FrameWork.Core\bin\Debug\FrameWork.Core.pdb
+G:\1.job\TNS\FrameWork.Core\bin\Debug\Newtonsoft.Json.dll
+G:\1.job\TNS\FrameWork.Core\obj\Debug\Framework.Core.csprojResolveAssemblyReference.cache
+G:\1.job\TNS\FrameWork.Core\obj\Debug\FrameWork.Core.dll
+G:\1.job\TNS\FrameWork.Core\obj\Debug\FrameWork.Core.pdb
