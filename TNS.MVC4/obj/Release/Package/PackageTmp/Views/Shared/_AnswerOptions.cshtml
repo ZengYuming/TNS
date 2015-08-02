@@ -1,8 +1,0 @@
-﻿@foreach (TNS.Metadata.AnswerType e in Enum.GetValues(typeof(TNS.Metadata.AnswerType)))
-{
-    int value = (int)e;
-    string text = e.ToString();
-    
-    <option value='@value'>@text</option>  
-}
-
